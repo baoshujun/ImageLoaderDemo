@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.shujun.bao.imageloaderdemo.glide.Glide1Activity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.button:
                 startActivity(Glide1Activity.class);
                 break;
+
         }
     }
 
